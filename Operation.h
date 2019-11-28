@@ -5,10 +5,8 @@
 #include <string>
 #include <chrono>
 
-struct Operation {
-    using TimeUnit = std::chrono::microseconds;
-    std::string type;
-    TimeUnit duration;
+class Operation {
+
 };
 
 

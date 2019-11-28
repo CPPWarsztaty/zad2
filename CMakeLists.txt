@@ -3,4 +3,4 @@ project(zad2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(zad2 main.cpp Statistics.cpp Operation.cpp)
+add_executable(zad2 main.cpp Operation.cpp Stats.cpp)
