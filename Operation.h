@@ -6,7 +6,11 @@
 #include <chrono>
 
 class Operation {
+public:
+    void start();
+    void stop();
 
+    std::chrono::microseconds getDuration() const;
 };
 
 
